@@ -49,3 +49,33 @@ ol {
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: #D9D9D9;
 }
+
+.content{
+  display: flex;
+  gap: 30px;
+  align-items: flex-end;
+  inline-size: 1140px;
+}
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.content-list{
+  block-size: 298px;
+  overflow: auto;
+}
+
+.content-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 26px;
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+.result-video-container{
+  inline-size: 711px;
+}
