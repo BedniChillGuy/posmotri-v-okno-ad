@@ -63,6 +63,7 @@ ol {
 }
 
 .content__list{
+  position: relative;
   block-size: 298px;
   overflow: auto;
 }
@@ -77,6 +78,7 @@ ol {
 }
 
 .result__video-container{
+  position: relative;
   inline-size: 711px;
   block-size: 386 px;
   margin-block-end: 16 px;
@@ -106,4 +108,20 @@ ol {
   block-size: 103px;
   object-fit: cover;
   object-position: center;
+}
+
+.search-form__fieldset-title{
+  margin-block-end: 5px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.title {
+  font-family: Oswald;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 75px;
+  line-height: 94%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
 }
